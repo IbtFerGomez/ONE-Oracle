@@ -1,0 +1,20 @@
+*html¨{
+    font-family: sans-serif;
+  /* Revisar */
+  /* -webkit-text-size-adjust:100%  */
+}
+
+body{
+    background-color: black;
+    margin: 0;
+    font: 400  ;
+    color: white;
+    display:flexbox;
+
+
+}
+div{
+    color: white;
+background-color: azure;
+}
+
