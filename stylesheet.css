@@ -1,20 +1,65 @@
-*html¨{
+@font-face  
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
     font-family: sans-serif;
   /* Revisar */
   /* -webkit-text-size-adjust:100%  */
 }
-
-body{
-    background-color: black;
-    margin: 0;
-    font: 400  ;
-    color: white;
-    display:flexbox;
+header{
+    align-items: center;
+    text-align: center;
+    height: 20vh;
+    background-color:#7e9181;
+    box-sizing: border-box;
+    justify-content: space-around;
+    align-items: stretch;
+   
 
 
 }
-div{
-    color: white;
-background-color: azure;
+body { 
+    background-color:#7e9181;
+     margin: 1%;
+    padding: 1%;
 }
 
+.Logo{
+    height: 60%;
+    border: 5px solid darkblue;
+    background-color:#7e9181;
+    float: left;
+
+
+   
+}
+.Portada{  
+    background-color:#7e9181;
+    height: 100vh;
+    color: white;
+    box-sizing: border-box;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+
+}
+.space{
+    Border: ;
+    background-color:#7e9181;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 20px;
+
+
+}
+
+.desencriptador, .encriptador {
+   background-color: #A0AAB2;
+    white-space: 50%;
+    height: 100%;
+
+}   
