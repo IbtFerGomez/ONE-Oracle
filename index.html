@@ -11,34 +11,38 @@
 </head>
     <body>
         <header>
-            <img src="Assets/Imagenes/alura.svg" alt="Alura-latam-logo" class="Logo">     
+            <img src="Assets/Imagenes/alura.svg" alt="Alura-latam-logo" class="Logo" >     
         </header>
         <main class="Portada">
-            <div class="botones">   
+            
+            <div class="espacio">
+                <label for="text" id="label"> Aquí agregar el texto a encriptar</label>:</label>   
+                <textarea class="encriptador" id="text" >
+
+                </textarea>
+            </div>
+            <div class="botones-area">   
                 <button class="botones_encriptar">Encriptar</button>
                 <button class="botones_desencriptar">Desencriptar</button>
-            </div>
-            <section class="space">
                 
-            <textarea class="encriptador">
-                Aqui escribir el texto
-                Debe ser en minusculas
-                y no debe contener caracteres especiales 
-            </textarea>
-            </section>
-            <section class="space">
-                <div class="desencriptador">
-                    <img src="Assets/Imagenes/" alt="">
-                    <H2>Ningún mensaje fue encontrado</H2>
-                    <p>Ningún mensaje fue encontrado</p>
-                    <p>  Aqui aparecera el texto el texto desencriptado</p>
-                   
-                </div>
-            </section>
+                <div class="reglas">    
+                    <p> Reglas </p>
 
-               
-                
-            
+                    <ul>
+                        <li>Debe ser en minúsculas</li>
+                        <li>No debe contener caracteres especiales</li>
+                    </ul>
+                </div>
+                 
+            </div>
+            <div class="espacio">
+                <div class="desencriptador">
+                    <img src="Assets/Imagenes/Icon.avif" alt="Persona buscando" class="icono">
+                    <H2>Ningún mensaje fue encontrado</H2>
+                    <p>  Aqui aparecera el texto el texto desencriptado</p>
+                </div>
+            </div>
+   
         </main>
 
         <footer>
@@ -46,9 +50,3 @@
         </footer>
     </body>
 </html>
-
-<!-- Título de su sitio web
-Campo para el texto que va a ser encriptado/desencriptado
-Un botón para encriptar
-Un botón para desencriptar
-Área para mostrar el texto encriptado/desencriptado. -->
