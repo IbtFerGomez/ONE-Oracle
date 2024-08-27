@@ -1,18 +1,15 @@
-@font-face  
 *{
     padding: 0;
     margin: 0;
 }
 html{
     font-family: sans-serif;
-  /* Revisar */
-  /* -webkit-text-size-adjust:100%  */
+   
 }
 header{
     align-items: center;
     text-align: center;
-    height: 20vh;
-    background-color:#7e9181;
+    background-color:#C6D8FF;
     box-sizing: border-box;
     justify-content: space-around;
     align-items: stretch;
@@ -20,46 +17,99 @@ header{
 
 
 }
+footer{
+    height: 10px;
+   text-align: center;
+   color: #7C7C7C;
+
+
+
+}
 body { 
-    background-color:#7e9181;
+    background-color:#C6D8FF;
+    box-sizing: border-box;
      margin: 1%;
     padding: 1%;
+    height: 90%;
+}
+p{
+    background-color: transparent;
 }
 
 .Logo{
-    height: 60%;
+    height: 50px;
     border: 5px solid darkblue;
-    background-color:#7e9181;
-    float: left;
+    background-color:#C6D8FF;
+    float:inline-start;
+    align-items:first baseline;
+
 
 
    
 }
+.botones {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.botones_encriptar, .botones_desencriptar { 
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid #0A3871;
+
+}
+
 .Portada{  
-    background-color:#7e9181;
-    height: 100vh;
-    color: white;
+    background-color:#C6D8FF;
+    color: #0A3871;
     box-sizing: border-box;
     display:flex;
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
+    
 
 }
 .space{
     Border: ;
-    background-color:#7e9181;
+    background-color:#d0dcf6;
+    border-radius: 10px;
     flex-direction: row;
     justify-content: space-around;
     margin: 20px;
     padding: 20px;
+    height: 70vh;
+    width: 90vw;
+
 
 
 }
 
-.desencriptador, .encriptador {
-   background-color: #A0AAB2;
-    white-space: 50%;
-    height: 100%;
-
-}   
+.encriptador {
+    box-sizing: border-box;
+    display: flex;
+   height: 100%;
+   width: 100%;
+   padding: 1%;
+   border: 0;
+   background-color: #d0dcf6b6;
+   font-family: fantasy;
+   text-align: center;
+   align-items: center;
+   color: #0A3871;
+} 
+.desencriptador {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+   height: 100%;
+   width: 100%;
+   padding: 1%;
+   border: 0;
+   background-color: #d0dcf6;
+   font-family: fantasy;
+   align-items: center;
+   justify-content: center;
+   color: #0A3871;
+}
