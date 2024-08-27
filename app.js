@@ -16,7 +16,7 @@ function validarTexto(texto) {
 function encriptar() {
     let texto = document.getElementById("user_input").value;
 
-    validarTexto(texto);
+    // validarTexto(texto);
 
     let textoEncriptado = texto
         .trim()
@@ -33,7 +33,7 @@ function encriptar() {
 function desencriptar() {
     let texto = document.getElementById("user_input").value;
 
-    validarTexto(texto);
+    // validarTexto(texto);
     
     let textoDesencriptado = texto
         .trim()

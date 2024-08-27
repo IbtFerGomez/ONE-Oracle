@@ -58,7 +58,6 @@ p{
 
 .Logo{
     height: 50px;
-    border: 5px solid darkblue;
     background-color:#C6D8FF;
     float: center;
 }
@@ -226,7 +225,6 @@ p{
     
     .Logo{
         height: 50px;
-        border: 5px solid darkblue;
         background-color:#C6D8FF;
         float:inline-start;     
     }
@@ -387,7 +385,6 @@ p{
         
         .Logo{
             height: 50px;
-            border: 5px solid darkblue;
             background-color:#C6D8FF;
             float: center;
             align-items:first baseline;
