@@ -98,7 +98,8 @@ p{
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     width: 10vw;
     background-color:#72a7e6;
-    color: white;
+    border-color: #30e2e2;
+    color: #ffffff;
 
 
 
@@ -128,6 +129,7 @@ p{
    border: 0;
    background-color: #d0dcf6b6;
    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+   font-size: 1.3rem;
    text-align: center;
    color: #0A3871;
 } 
@@ -142,6 +144,24 @@ p{
    border: 0;
    background-color: #d0dcf6;
    font-family: fantasy;
+   text-align: center;
+   align-items: center;
+   color: #0a3871;
+}
+
+.desencriptador2 {
+    box-sizing: border-box;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+   height: 80vh;
+   width:30vw;
+   padding: 10%;
+   border: 0;
+   background-color: #d0dcf6;
+   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+  
+   font-size: 1.2rem;
    align-items: center;
    color: #0A3871;
 }
@@ -157,7 +177,7 @@ p{
 
 }
 }
-@media (min-width:768px) and (max-width:1023px) {
+@media (min-width:768px) and (max-width:1024px) {
 
     html{
         font-family: sans-serif;
@@ -248,7 +268,8 @@ p{
         font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         width: 10vw;
         background-color:#72a7e6;
-        color: white;
+        border-color: #30e2e2;
+        color: #ffffff;
     
     
     
@@ -309,7 +330,7 @@ p{
     }
     }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 
         html{
             font-family: sans-serif;
@@ -391,7 +412,7 @@ p{
             border-radius: 15px;
             justify-content: space-around;
             font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            font-size: .6rem;
+            font-size: 1rem;
             width: 40vw;
             background-color: #0A3871;
             color: white;
@@ -404,9 +425,11 @@ p{
             border-radius: 15px;
             justify-content: space-around;
             font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            width: 10vw;
+            font-size: 1rem;
+            width: 40vw;
             background-color:#72a7e6;
-            color: white;        
+            border-color: #30e2e2;
+            color: #ffffff;        
         }
         .espacio {
             box-sizing: border-box;

@@ -16,14 +16,14 @@
         <main class="Portada">
             
             <div class="espacio">
-                <label for="text" id="label"> Aquí agregar el texto a encriptar</label>:</label>   
+                <label for="text" id="label"> Aquí agregar el texto a encriptar</label>  
                 <textarea class="encriptador" id="text" >
 
                 </textarea>
             </div>
             <div class="botones-area">   
-                <button class="botones_encriptar">Encriptar</button>
-                <button class="botones_desencriptar">Desencriptar</button>
+                <button onclick="encriptar()"   class="botones_encriptar">Encriptar</button>
+                <button onclick="desencriptar()" class="botones_desencriptar">Desencriptar</button>
                 
                 <div class="reglas">    
                     <p> Reglas </p>
@@ -36,11 +36,15 @@
                  
             </div>
             <div class="espacio">
-                <div class="desencriptador">
+                <div class="desencriptador" id="desencriptador">
                     <img src="Assets/Imagenes/Icon.avif" alt="Persona buscando" class="icono">
                     <H2>Ningún mensaje fue encontrado</H2>
                     <p>  Aqui aparecera el texto el texto desencriptado</p>
                 </div>
+                <div class="desencriptador2" id="desencriptador">
+                    <p>  Aqui aparecera el texto el texto desencriptado</p>
+                </div>
+
             </div>
    
         </main>
