@@ -1,6 +1,9 @@
+
+// Aqui en seguida se hace la validacion de lo ingresado cumpla con las reglas
+
 function validarTexto(texto) {
     let esMinusculas = texto === texto.toLowerCase();
-    let sinCaracteresEspeciales = /^[a-z\s]*$/.test(texto);
+    let sinCaracteresEspeciales = /^[a-zñ\s.,]*$/.test(texto);
 
     if (!esMinusculas) {
         alert("El texto debe estar en minúsculas.");
@@ -13,10 +16,12 @@ function validarTexto(texto) {
     }
 }
 
+
+// Aui en seguida se hace la encriptacion y desencriptar
 function encriptar() {
     let texto = document.getElementById("user_input").value;
 
-    // validarTexto(texto);
+    validarTexto(texto);
 
     let textoEncriptado = texto
         .trim()
@@ -33,7 +38,7 @@ function encriptar() {
 function desencriptar() {
     let texto = document.getElementById("user_input").value;
 
-    // validarTexto(texto);
+    validarTexto(texto);
     
     let textoDesencriptado = texto
         .trim()
@@ -46,3 +51,25 @@ function desencriptar() {
     let resultado = document.getElementById("resultado");
     resultado.innerHTML = "<p>" + textoDesencriptado + "</p>";
 }
+
+// Aqui en seguida se hace la funcion de copiar texto
+
+function copyText() {
+    
+    let resultadoDiv = document.getElementById("resultado");
+    let range = document.createRange();
+    range.selectNodeContents(resultadoDiv);
+    let selection = window.getSelection();
+    selection.removeAllRanges();
+    selection.addRange(range);
+
+    try {
+        document.execCommand('copy');
+        alert('Texto copiado al portapapeles');
+    } catch (err) {
+        console.error('Error al copiar al portapapeles:', err);
+    }
+    selection.removeAllRanges();
+}
+document.getElementById("Copiar").addEventListener("click", copyText);
+

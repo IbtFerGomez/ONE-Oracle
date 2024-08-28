@@ -22,20 +22,21 @@
                 </textarea>
             </div>
             <div class="botones-area">   
-                <button onclick="encriptar()"   class="botones_encriptar">Encriptar</button>
-                <button onclick="desencriptar()" class="botones_desencriptar">Desencriptar</button>
+                <button onclick="encriptar()"   class="boton">Encriptar</button>
+                <button onclick="desencriptar()" class="boton">Desencriptar</button>
                 
                 <div class="reglas">    
                     <p> Reglas </p>
 
                     <ul>
-                        <li>Debe ser en minúsculas</li>
+                        <li>Debe ser en minúsculas y sin acentos</li>
                         <li>No debe contener caracteres especiales</li>
                     </ul>
                 </div>
                  
             </div>
             <div class="espacio">
+                <button onclick="copyText()" class="boton" id="Copiar">Copiar texto</button>
                 <div class="desencriptador" id="resultado">
                     <img src="Assets/Imagenes/Icon.avif" alt="Persona buscando" class="icono">
                     <H2>Ningún mensaje fue encontrado</H2>

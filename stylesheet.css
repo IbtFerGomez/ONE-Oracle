@@ -8,7 +8,9 @@ html, body {
     padding: 0;
     margin: 0;
   }
-
+  p {
+  max-width: 100%;
+  }
 @media (min-width:1024px) {
 
 html{
@@ -66,13 +68,8 @@ p{
     flex-direction: column;
     height: 50vh;
     justify-content: space-evenly;
-
-   
-
-
-
 }
-.botones_encriptar, .botones_desencriptar {
+.boton {
     box-sizing: border-box; 
     margin: 5px;
     padding: 10px;
@@ -83,12 +80,9 @@ p{
     width: 10vw;
     background-color: #0A3871;
     color: white;
-
-
-
 }
 
- .botones_encriptar:hover, .botones_desencriptar:hover { 
+ .boton:hover { 
     margin: 5px;
     padding: 10px;
     border: 2px solid #0A3871;
@@ -99,15 +93,14 @@ p{
     background-color:#72a7e6;
     border-color: #30e2e2;
     color: #ffffff;
-
-
-
 }
+
 .espacio {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    align-items: center;
     background-color:#C6D8FF;
     border-radius: 10px;
     margin: 1rem;
@@ -211,6 +204,7 @@ p{
     }
     p{
         background-color: transparent;
+        
     }
     .Portada{  
         background-color:#C6D8FF;
@@ -233,13 +227,8 @@ p{
         flex-direction: column;
         height: 50vh;
         justify-content: space-evenly;
-    
-       
-    
-    
-    
     }
-    .botones_encriptar, .botones_desencriptar {
+    .boton {
         box-sizing: border-box; 
         margin: 5px;
         padding: 10px;
@@ -252,12 +241,9 @@ p{
         width: 10vw;
         background-color: #0A3871;
         color: white;
-    
-    
-    
     }
     
-     .botones_encriptar:hover, .botones_desencriptar:hover { 
+     .boton:hover { 
         margin: 5px;
         padding: 10px;
         border: 2px solid #0A3871;
@@ -268,15 +254,13 @@ p{
         background-color:#72a7e6;
         border-color: #30e2e2;
         color: #ffffff;
-    
-    
-    
     }
     .espacio {
         box-sizing: border-box;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
+        align-items: center;
         background-color:#C6D8FF;
         border-radius: 10px;
         margin: 1rem;
@@ -401,12 +385,12 @@ p{
             justify-content: space-between;
             align-items: center;
         }
-        .botones_encriptar, .botones_desencriptar {
+        .boton {
             box-sizing: border-box; 
-            margin: 5px;
-            padding: 10px;
+            margin: 1px;
+            padding: 5px;
             border: 2px solid #0A3871;
-            border-radius: 15px;
+            border-radius: 8px;
             justify-content: space-around;
             font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             font-size: 1rem;
@@ -415,11 +399,11 @@ p{
             color: white;
         }
         
-         .botones_encriptar:hover, .botones_desencriptar:hover { 
-            margin: 5px;
-            padding: 10px;
+         .boton:hover { 
+            margin: 1px;
+            padding: 5px;
             border: 2px solid #0A3871;
-            border-radius: 15px;
+            border-radius: 8px;
             justify-content: space-around;
             font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             font-size: 1rem;
@@ -428,11 +412,13 @@ p{
             border-color: #30e2e2;
             color: #ffffff;        
         }
+        
         .espacio {
             box-sizing: border-box;
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
+            align-items: center;
             background-color:#C6D8FF;
             border-radius: 10px;
             margin: 1rem;
@@ -482,5 +468,6 @@ p{
             font-family: fantasy;
         
         }
-        }
+
+ }
        
